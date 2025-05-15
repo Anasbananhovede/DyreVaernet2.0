@@ -1,10 +1,50 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Velkommen til Dyreværnet";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="da">
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/Adopter">Adopter</a></li>
+            <li><a href="/Dyr">Dyr</a></li>
+            <li><a href="/OmOs">Om Os</a></li>
+            <li><a href="/Aktiviteter">Aktiviteter</a></li>
+            <li><a href="/Login">Log ind</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero / Velkomst -->
+    <header class="hero">
+        <h1>Velkommen til Dyreværnet</h1>
+        <p>Et trygt hjem for alle dyr</p>
+    </header>
+
+    <!-- Blog-afsnit -->
+    <section class="blog">
+        <h2>Om vores arbejde</h2>
+        <p>
+            Hos Dyreværnet tror vi på, at alle dyr fortjener et trygt og kærligt hjem.
+            Vi arbejder hver dag for at redde, pleje og finde nye familier til forladte og udsatte dyr.
+        </p>
+        <p>
+            Vores motivation stammer fra kærligheden til dyr og troen på, at medmenneskelighed også gælder vores firbenede venner.
+            Gennem adoption, oplysning og frivilligt arbejde skaber vi en bedre fremtid for dyrene – ét liv ad gangen.
+        </p>
+    </section>
+
+    <!-- Footer med kontaktinformation -->
+    <footer class="footer">
+        <h3>Kontakt os</h3>
+        <p>Dyreværnet Danmark</p>
+        <p>Adresse: Dyregladevej 12, 4000 Roskilde</p>
+        <p>Telefon: +45 12 34 56 78</p>
+        <p>Email: kontakt@dyrevaernet.dk</p>
+    </footer>
+</body>
+</html>
