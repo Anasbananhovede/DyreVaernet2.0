@@ -57,7 +57,7 @@ body {
     /* Overskrifter */
     .about-container h1,
     .about-container h2 {
-        color: #2c3e50;
+        color: darkslategrey;
         font-weight: 700;
         margin-bottom: 1rem;
     }
