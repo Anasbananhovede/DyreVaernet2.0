@@ -5,8 +5,6 @@ namespace DyreVaernet2._0.Pages
 {
     public class BookingModel : PageModel
     {
-        public void OnGet()
-        {
-        }
+        
     }
 }
