@@ -1,0 +1,23 @@
+﻿.blog-image-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.blog-image {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+    .blog-image:hover {
+        transform: scale(1.02);
+    }
+
+.image-caption {
+    font-style: italic;
+    color: #555;
+    margin-top: 0.5rem;
+}
