@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "Bella",
+    "Gender": "Hun",
+    "Species": "Hund",
+    "ImagePath": "/images/bella.jpg",
+    "Description": "En legesyg og kærlig hund"
+  },
+  {
+    "Id": 2,
+    "Name": "Milo",
+    "Gender": "Han",
+    "Species": "Kat",
+    "ImagePath": "/images/milo.jpg",
+    "Description": "En rolig og nysgerrig kat"
+  },
+  {
+    "Id": 3,
+    "Name": "Luna",
+    "Gender": "Hun",
+    "Species": "Kanin",
+    "ImagePath": "/images/luna.jpg",
+    "Description": "En nysgerrig og sød kanin"
+  }
+]
+
