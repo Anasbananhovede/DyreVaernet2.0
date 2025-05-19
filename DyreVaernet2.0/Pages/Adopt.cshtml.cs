@@ -9,7 +9,7 @@ namespace DyreVaernet2._0.Pages
     // PageModel til Adopt-siden
     public class AdoptModel : PageModel
     {
-        // Liste over dyr, som vises i Razor-siden
+        // Liste over dyr
         public List<Animal> Animals { get; set; }
 
         public void OnGet()
@@ -20,3 +20,4 @@ namespace DyreVaernet2._0.Pages
         }
     }
 }
+  
