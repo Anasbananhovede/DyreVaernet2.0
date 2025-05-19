@@ -1,4 +1,24 @@
 ﻿@page
 @model DyreVaernet2._0.Pages.AdoptModel
 @{
+    ViewData["Title"] = "Adopter et dyr";
 }
+
+<!-- Tilkobler CSS -->
+<link rel="stylesheet" href="~/css/adopter.css" />
+
+<h1>Adopter et dyr</h1>
+
+<!-- Viser alle dyr som kort -->
+<div class="animal-container">
+    @foreach (Domain.Models.Animal animal in Model.Animals)
+    {
+        <div class="animal-card">
+            <img src="@animal.ImagePath" alt="@animal.Name" />
+            <h3>@animal.Name</h3>
+            <p>Køn: @animal.Gender</p>
+            <p>Art: @animal.Species</p>
+            <a href="#">Se mere</a>
+        </div>
+    }
+</div>
