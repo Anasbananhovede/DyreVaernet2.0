@@ -86,7 +86,7 @@ body {
         /* Links og kontaktinfo i bunden */
         .about-container p:last-child {
             font-weight: 600;
-            color: #2c3e50;
+            color: white;
         }
 
 /* Responsivt */
