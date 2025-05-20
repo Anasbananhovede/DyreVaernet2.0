@@ -1,0 +1,16 @@
+﻿@page
+@model DyreVaernet2._0.Pages.AdoptDetailsModel
+@{
+    ViewData["Title"] = "Dyredetaljer";
+}
+
+<h1>@Model.SelectedAnimal.Name</h1>
+
+<img src="@Model.SelectedAnimal.ImagePath" alt="@Model.SelectedAnimal.Name" style="max-width: 300px; border-radius: 8px;" />
+
+<p><strong>Køn:</strong> @Model.SelectedAnimal.Gender</p>
+<p><strong>Art:</strong> @Model.SelectedAnimal.Species</p>
+<p><strong>Beskrivelse:</strong> @Model.SelectedAnimal.Description</p>
+
+<a href="/Adopt">← Tilbage til oversigten</a>
+

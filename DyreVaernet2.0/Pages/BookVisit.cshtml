@@ -1,0 +1,35 @@
+﻿@page
+@model DyreVaernet2._0.Pages.BookVisitModel
+@{
+    ViewData["Title"] = "Book et besøg";
+}
+
+<h1>Book besøg hos @Model.AnimalName</h1>
+
+<!-- Formular til booking af besøg -->
+<form method="post">
+
+    <!-- Skjult felt med dyrets ID, så vi ved hvilket dyr der bookes -->
+    <input type="hidden" asp-for="AnimalId" />
+
+    <!-- Brugeren indtaster sit navn -->
+    <label>Dit navn:</label><br />
+    <input asp-for="VisitorName" required /><br /><br />
+
+    <!-- Brugeren indtaster sin email -->
+    <label>Email:</label><br />
+    <input asp-for="Email" type="email" required /><br /><br />
+
+    <!-- Brugeren vælger en dato for besøget -->
+    <label>Dato for besøg:</label><br />
+    <input asp-for="VisitDate" type="date" required /><br /><br />
+
+    <!-- Knap til at sende formularen -->
+    <button type="submit">Book besøg</button>
+</form>
+
+<!-- Hvis booking lykkes, vises bekræftelse -->
+@if (Model.Success)
+{
+    <p style="color: green;">Tak for din booking! Vi glæder os til at se dig.</p>
+}

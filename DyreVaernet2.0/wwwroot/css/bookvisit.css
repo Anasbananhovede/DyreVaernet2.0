@@ -1,0 +1,51 @@
+﻿.booking-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+    .booking-container h1 {
+        text-align: center;
+        color: #004080;
+    }
+
+    .booking-container label {
+        display: block;
+        margin-bottom: 0.2rem;
+        font-weight: bold;
+    }
+
+    .booking-container input[type="text"],
+    .booking-container input[type="email"],
+    .booking-container input[type="date"] {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    .booking-container button {
+        width: 100%;
+        padding: 0.7rem;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+        .booking-container button:hover {
+            background-color: #218838;
+        }
+
+.booking-success {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 1rem;
+}

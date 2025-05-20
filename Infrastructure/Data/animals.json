@@ -22,6 +22,31 @@
     "Species": "Kanin",
     "ImagePath": "/images/luna.jpg",
     "Description": "En nysgerrig og sød kanin"
+  },
+  {
+    "Id": 4,
+    "Name": "Cookie",
+    "Gender": "Hun",
+    "Species": "Kat",
+    "ImagePath": "/images/kat2.jpg",
+    "Description": "Omsorgsfuld og rolig kat"
+  },
+  {
+    "Id": 5,
+    "Name": "Cookie",m
+    "Gender": "Han",
+    "Species": "Hund",
+    "ImagePath": "/images/hund2.jpg",
+    "Description": "rolig og kærlig hund"
+  },
+  {
+    "Id": 6,
+    "Name": "Cookie",
+    "Gender": "Han",
+    "Species": "Kanin",
+    "ImagePath": "/images/kanin2.jpg",
+    "Description": "Lille hopper ønsker en kærlig hånd"
   }
+
 ]
 
