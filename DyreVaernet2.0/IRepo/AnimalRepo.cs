@@ -33,14 +33,6 @@ namespace DyreVaernet2._0.IRepo
             return null;
         }
 
-        public Domain.Models.Animal GetByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Domain.Models.Animal> IAnimalRepo.GetAll()
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }
