@@ -25,6 +25,7 @@
         width: 100%;
         height: auto;
         border-radius: 8px;
+        object-fit: cover;
     }
 
     .animal-card h3 {
@@ -49,6 +50,6 @@
         font-weight: bold;
     }
 
-        .animal-card a:hover {
-            background-color: #005fa3;
-        }
+   .animal-card a:hover {
+   background-color: #005fa3;
+   }
