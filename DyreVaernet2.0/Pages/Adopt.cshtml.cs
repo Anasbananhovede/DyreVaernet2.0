@@ -4,6 +4,7 @@ using Domain.Models;
 using Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+ 
 
 namespace DyreVaernet2._0.Pages
 {
